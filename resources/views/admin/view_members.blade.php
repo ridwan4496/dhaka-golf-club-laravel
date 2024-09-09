@@ -9,7 +9,12 @@
     <div class="wrapper">
          @include('admin.sidebar')
          <!-- @include('admin.topbar') -->
-
+      <div class="header">
+         <h1>All Members List</h1>
+         <a href="{{ url('add_member') }}" class="btn btn-primary">
+         <i class="fa-solid fa-plus"></i>
+         Add New Member</a>
+      </div>
       <div>
          <div class="view-members">
             <table class="members-table">               

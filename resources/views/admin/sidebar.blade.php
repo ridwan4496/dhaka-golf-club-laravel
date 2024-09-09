@@ -2,13 +2,13 @@
             <!-- Content For Sidebar -->
             <div class="h-100">
                 <div class="sidebar-logo">
-                    <a href="#">Dhaka Golf Club</a>
+                    <a href="{{ url('admin/dashboard') }}">Dhaka Golf Club</a>
                 </div>
                 <br>
                 <br>
                 <ul class="sidebar-nav">
                     <li class="sidebar-item">
-                        <a href="/" class="sidebar-link">
+                        <a href="{{ url('admin/dashboard') }}" class="sidebar-link">
                             <i class="fa-solid fa-house pe-2"></i>
                             Home
                         </a>
@@ -20,10 +20,10 @@
                         </a>
                         <ul id="pages" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Members List</a>
+                                <a href="{{ url('view_members') }}" class="sidebar-link">Members List</a>
                             </li>
                             <li class="sidebar-item">
-                                <a href="#" class="sidebar-link">Add New Member</a>
+                                <a href="{{ url('add_member') }}" class="sidebar-link">Add New Member</a>
                             </li>
                         </ul>
                     </li>

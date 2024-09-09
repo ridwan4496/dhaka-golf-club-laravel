@@ -130,6 +130,94 @@ a.sidebar-link {
     bottom: 40px;
 }
 
+.form-input {
+    width: 35vw;
+    height: 600px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.form-input div {
+    margin-bottom: 12px;
+}
+
+.form-input label {
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    width: 190px;
+    padding: 10px 50px;
+    margin-left: 35px;
+}
+
+.form-input input {
+    color: #000;
+    background-color: inherit;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 350px;
+    font-size: 16px;
+}
+
+.form-input select {
+    background-color: inherit;
+    color: #000;
+}
+
+.form-input h1 {
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+.view-members {
+    width: 80vw;
+    margin: 0px auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-table {
+    border: 2px solid greenyellow;
+}
+
+.members-table th {
+    background-color: rgb(0, 129, 180);
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+.members-table td {
+    border: 1px solid skyblue;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-list-header {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 15px;
+}
+
 @media (min-width: 768px) {
     .content {
         max-width: auto;
